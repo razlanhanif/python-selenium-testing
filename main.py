@@ -5,15 +5,15 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome()
 
 # Step 2: Open URL https://opensource-demo.orangehrmlive.com/
-driver.get("https://salesdemo.klinify.com/#/")
+driver.get("https://opensource-demo.orangehrmlive.com/")
 
 # Step 3: Enter username
 username_input = driver.find_element(By.ID, "username")
-username_input.send_keys("testings")
+username_input.send_keys("admin123")
 
 # Step 4: Enter password
 password_input = driver.find_element(By.ID, "password")
-password_input.send_keys("testings")
+password_input.send_keys("admin123")
 
 # Step 5: Click on login
 login_button = driver.find_element(By.TAG_NAME, "button")
